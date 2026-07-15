@@ -1,0 +1,4 @@
+dn: cn=sistema_leitores,ou=grupos,dc=empresa,dc=test
+changetype: modify
+add: uniqueMember
+uniqueMember: uid=mudanca.poc,ou=usuarios,dc=empresa,dc=test

@@ -1,0 +1,8 @@
+dn: uid=admin.poc,ou=usuarios,dc=empresa,dc=test
+objectClass: inetOrgPerson
+cn: Administrador POC
+sn: POC
+givenName: Administrador
+uid: admin.poc
+mail: admin.poc@empresa.test
+userPassword: admin123

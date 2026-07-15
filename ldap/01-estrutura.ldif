@@ -1,0 +1,9 @@
+dn: ou=usuarios,dc=empresa,dc=test
+objectClass: organizationalUnit
+ou: usuarios
+description: Usuarios autorizados a acessar os sistemas
+
+dn: ou=grupos,dc=empresa,dc=test
+objectClass: organizationalUnit
+ou: grupos
+description: Grupos utilizados para definir permissoes

@@ -1,0 +1,8 @@
+dn: uid=mudanca.poc,ou=usuarios,dc=empresa,dc=test
+objectClass: inetOrgPerson
+cn: Usuario Mudanca
+sn: Mudanca
+givenName: Usuario
+uid: mudanca.poc
+mail: mudanca.poc@empresa.test
+userPassword: mudanca123

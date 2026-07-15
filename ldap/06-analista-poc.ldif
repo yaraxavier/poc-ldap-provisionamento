@@ -1,0 +1,8 @@
+dn: uid=analista.poc,ou=usuarios,dc=empresa,dc=test
+objectClass: inetOrgPerson
+cn: Analista POC
+sn: POC
+givenName: Analista
+uid: analista.poc
+mail: analista.poc@empresa.test
+userPassword: analista123

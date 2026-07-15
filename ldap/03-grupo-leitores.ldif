@@ -1,0 +1,5 @@
+dn: cn=sistema_leitores,ou=grupos,dc=empresa,dc=test
+objectClass: groupOfUniqueNames
+cn: sistema_leitores
+description: Usuarios com acesso de leitura ao sistema
+uniqueMember: uid=funcionario.poc,ou=usuarios,dc=empresa,dc=test

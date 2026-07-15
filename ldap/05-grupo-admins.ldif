@@ -1,0 +1,5 @@
+dn: cn=sistema_admins,ou=grupos,dc=empresa,dc=test
+objectClass: groupOfUniqueNames
+cn: sistema_admins
+description: Administradores da POC
+uniqueMember: uid=admin.poc,ou=usuarios,dc=empresa,dc=test

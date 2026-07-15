@@ -1,0 +1,5 @@
+dn: cn=sistema_analistas,ou=grupos,dc=empresa,dc=test
+objectClass: groupOfUniqueNames
+cn: sistema_analistas
+description: Usuarios analistas do sistema
+uniqueMember: uid=analista.poc,ou=usuarios,dc=empresa,dc=test
