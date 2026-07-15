@@ -1,0 +1,64 @@
+dn: ou=usuarios,dc=empresa,dc=test
+objectClass: organizationalUnit
+ou: usuarios
+description: Usuarios da POC
+
+dn: ou=grupos,dc=empresa,dc=test
+objectClass: organizationalUnit
+ou: grupos
+description: Grupos de acesso da POC
+
+dn: uid=admin.poc,ou=usuarios,dc=empresa,dc=test
+objectClass: inetOrgPerson
+cn: Administrador POC
+sn: POC
+givenName: Administrador
+uid: admin.poc
+mail: admin.poc@empresa.test
+userPassword: admin123
+
+dn: uid=analista.poc,ou=usuarios,dc=empresa,dc=test
+objectClass: inetOrgPerson
+cn: Analista POC
+sn: POC
+givenName: Analista
+uid: analista.poc
+mail: analista.poc@empresa.test
+userPassword: analista123
+
+dn: uid=funcionario.poc,ou=usuarios,dc=empresa,dc=test
+objectClass: inetOrgPerson
+cn: Funcionario POC
+sn: POC
+givenName: Funcionario
+uid: funcionario.poc
+mail: funcionario.poc@empresa.test
+userPassword: poc123
+
+dn: uid=mudanca.poc,ou=usuarios,dc=empresa,dc=test
+objectClass: inetOrgPerson
+cn: Usuario Mudanca
+sn: Mudanca
+givenName: Usuario
+uid: mudanca.poc
+mail: mudanca.poc@empresa.test
+userPassword: mudanca123
+
+dn: cn=sistema_admins,ou=grupos,dc=empresa,dc=test
+objectClass: groupOfUniqueNames
+cn: sistema_admins
+description: Administradores do sistema
+uniqueMember: uid=admin.poc,ou=usuarios,dc=empresa,dc=test
+
+dn: cn=sistema_analistas,ou=grupos,dc=empresa,dc=test
+objectClass: groupOfUniqueNames
+cn: sistema_analistas
+description: Analistas do sistema
+uniqueMember: uid=analista.poc,ou=usuarios,dc=empresa,dc=test
+
+dn: cn=sistema_leitores,ou=grupos,dc=empresa,dc=test
+objectClass: groupOfUniqueNames
+cn: sistema_leitores
+description: Usuarios com acesso de leitura
+uniqueMember: uid=funcionario.poc,ou=usuarios,dc=empresa,dc=test
+uniqueMember: uid=mudanca.poc,ou=usuarios,dc=empresa,dc=test
