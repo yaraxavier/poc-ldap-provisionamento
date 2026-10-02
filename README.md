@@ -641,7 +641,7 @@ O comando `docker ps` pode mostrar uma tabela vazia. Isso apenas significa que n
 ## 21.2 Clonar o repositório
 
 ```bash
-git clone https://github.com/VegasVvegas/poc-ldap-provisionamento.git
+git clone https://github.com/yaraxavier/poc-ldap-provisionamento.git
 cd poc-ldap-provisionamento
 ```
 
@@ -1006,7 +1006,7 @@ docker compose up -d --build
 # 27. Fluxo resumido para avaliação
 
 ```bash
-git clone https://github.com/VegasVvegas/poc-ldap-provisionamento.git
+git clone https://github.com/yaraxavier/poc-ldap-provisionamento.git
 cd poc-ldap-provisionamento
 cp .env.example .env
 docker compose up -d --build
